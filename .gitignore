@@ -1,0 +1,16 @@
+# Copyright (C) 2021 By VeezMusicProject
+
+*.session
+*.session-journal
+.env
+__pycache__
+.idea
+.vscode
+raw_files
+downloads
+venv
+local.env
+*.jpg
+*png
+*.raw
+*.log
