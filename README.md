@@ -1,18 +1,32 @@
 <h2 align="centre">VIDEO STREAM BOT</h2>
 
-telegram bot project for streaming video on telegram video chat, powered by [py-tgcalls](https://github.com/pytgcalls/pytgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
+Telegram bot project for streaming video on telegram video chat, powered by [py-tgcalls](https://github.com/pytgcalls/pytgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
 
-<p align="center"><a href="https://t.me/veezvidstreambot"><img src="https://telegra.ph/file/4e8717d59d74412cf0e50.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/videostreamvcslbot"><img src="https://telegra.ph/file/1fbd730aed41f0e70cf68.jpg" width="400"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/levina-lab/video-stream/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/levina-lab/video-stream/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/levina-lab/video-stream"> <img src="https://img.shields.io/github/repo-size/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/commits/main"> <img src="https://img.shields.io/github/last-commit/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/issues"> <img src="https://img.shields.io/github/issues/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/forks/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/TharukRenuja/video-stream/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
+    <a href="https://app.codacy.com/gh/TharukRenuja/video-stream/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
+    <a href="https://github.com/TharukRenuja/video-stream"> <img src="https://img.shields.io/github/repo-size/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/TharukRenuja/video-stream/commits/main"> <img src="https://img.shields.io/github/last-commit/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/TharukRenuja/video-stream/issues"> <img src="https://img.shields.io/github/issues/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/TharukRenuja/video-stream/network/members"> <img src="https://img.shields.io/github/forks/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/TharukRenuja/video-stream/network/members"> <img src="https://img.shields.io/github/stars/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
+
+## ✨ Features
+- Stable video streaming
+- Clear video & audio quality
+- Support youtube live streaming
+- Support youtube video streaming
+- Support streaming video from mp4 video/file video
+- Join & Leave command for assistant
+- Support inline search video
+- Support youtube search video link
+- Support PornHub direct link streaming 🔞
+- Video downloader feature
+- Song downloader feature
+- Have many other interesting features
 
 ## 🛠 Commands:
 - ``/vplay`` (reply to video/give yt url) - to start video streaming
@@ -42,10 +56,10 @@ TAP THIS: [![GenerateString](https://img.shields.io/badge/repl.it-generateString
 ## 💜 Deploy To Heroku
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TharukRenuja/video-stream)
 
 ## 🚄 Deploy To Railway
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/levina-lab/video-stream&envs=API_ID,API_HASH,BOT_TOKEN,BOT_USERNAME,ASSISTANT_NAME,SESSION_NAME,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TharukRenuja/video-stream&envs=API_ID,API_HASH,BOT_TOKEN,BOT_USERNAME,ASSISTANT_NAME,SESSION_NAME,SUDO_USERS,DURATION_LIMIT)
 
 ## 🌀 Run On Workflows
 
@@ -136,7 +150,7 @@ jobs:
 - sudo apt install ffmpeg -y
 - nvm install v16.5.0
 - npm i -g npm
-- git clone https://github.com/levina-lab/video-stream
+- git clone https://github.com/TharukRenuja/video-stream
 - cd video-stream
 - virtualenv venv #Create Virtual Environment.
 - source venv/bin/activate #Activate Virtual Environment
@@ -149,6 +163,7 @@ jobs:
 
 # Special Credits 💖
 
+- [Tharuk](https://github.com/TharukRenuja) ``Dev``
 - [Levina](https://github.com/levina-lab) ``Dev``
 - [Sammy-XD](https://github.com/Sammy-XD) ``Dev``
 - [Zxce3](https://github.com/Zxce3) ``Dev``
@@ -158,4 +173,4 @@ jobs:
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
 
 ### Support & Updates 🎑
-<a href="https://t.me/VeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/trtechguide"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/SLBotsOfficial"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
