@@ -5,13 +5,6 @@ Telegram bot project for streaming video on telegram video chat, powered by [py-
 <p align="center"><a href="https://t.me/videostreamvcslbot"><img src="https://telegra.ph/file/1fbd730aed41f0e70cf68.jpg" width="400"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/TharukRenuja/video-stream/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/TharukRenuja/video-stream/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/TharukRenuja/video-stream"> <img src="https://img.shields.io/github/repo-size/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/TharukRenuja/video-stream/commits/main"> <img src="https://img.shields.io/github/last-commit/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/TharukRenuja/video-stream/issues"> <img src="https://img.shields.io/github/issues/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/TharukRenuja/video-stream/network/members"> <img src="https://img.shields.io/github/forks/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/TharukRenuja/video-stream/network/members"> <img src="https://img.shields.io/github/stars/TharukRenuja/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
 ## ✨ Features
