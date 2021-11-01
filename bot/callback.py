@@ -20,7 +20,7 @@ async def cbguide(_, query: CallbackQuery):
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
-⚡ __Maintained by Veez Project Team__""",
+⚡ __Maintained by @SLBotsOfficial Team__""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
