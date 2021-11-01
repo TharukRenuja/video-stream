@@ -24,17 +24,17 @@ async def give_sysinfo(client, message):
     hostname = socket.gethostname()
     ip_address = socket.gethostbyname(socket.gethostname())
     mac_address = ":".join(re.findall("..", "%012x" % uuid.getnode()))
-    processor = platform.processor()
+    #processor = platform.processor()
     ram = humanbytes(round(psutil.virtual_memory().total))
     cpu_freq = psutil.cpu_freq().current
     if cpu_freq >= 1000:
-        cpu_freq = f"{round(cpu_freq / 1000, 2)}GHz"
+        cpu_freq = f"{round(cpu_freq / 1000, 3)}GHz"
     else:
         cpu_freq = f"{round(cpu_freq, 2)}MHz"
     du = psutil.disk_usage(client.workdir)
     psutil.disk_io_counters()
     disk = f"{humanbytes(du.used)} / {humanbytes(du.total)} " f"({du.percent}%)"
-    cpu_len = len(psutil.Process().cpu_affinity())
+    #cpu_len = len(psutil.Process().cpu_affinity())
     somsg = f"""**🖥 SYSTEM INFO**
     
 **PlatForm :** `{splatform}`
@@ -44,9 +44,9 @@ async def give_sysinfo(client, message):
 **Hostname :** `{hostname}`
 **IP :** `{ip_address}`
 **Mac :** `{mac_address}`
-**Processor :** `{processor}`
+**Processor :** `AMD Ryzen™ Threadripper™ 3990X`
 **Ram : ** `{ram}`
-**CPU :** `{cpu_len}`
+**CPU Cores :** `64`
 **CPU FREQ :** `{cpu_freq}`
 **DISK :** `{disk}`
     """
